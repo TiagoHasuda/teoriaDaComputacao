@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atividade Extra AFD", "Atividade Extra AFD\Atividade Extra AFD.csproj", "{6E41F720-CD3A-4A53-A425-81E5478F7080}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E41F720-CD3A-4A53-A425-81E5478F7080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E41F720-CD3A-4A53-A425-81E5478F7080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E41F720-CD3A-4A53-A425-81E5478F7080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E41F720-CD3A-4A53-A425-81E5478F7080}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39F72273-A741-4094-A69A-F2375AFB5AE6}
+	EndGlobalSection
+EndGlobal
