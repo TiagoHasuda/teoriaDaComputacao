@@ -107,7 +107,8 @@ namespace Atividade_Extra_AFD
                         continue;
                     }
 
-                    State nextJump = EstadosFinais[t1][0];
+                    State nextJump;
+                    State nextTemp = EstadosFinais[t1][0];
 
                     List<List<State>> newState = new List<List<State>>();
 
@@ -117,6 +118,7 @@ namespace Atividade_Extra_AFD
                     //Este while se repete sempre que um ou mais estados não forem equivalentes, criando mais estados no resultado final
                     while (changed)
                     {
+                        nextJump = nextTemp;
                         changed = false;
                         stateTemp = new List<State>();
                         stateTemp.Add(nextJump);
@@ -125,7 +127,8 @@ namespace Atividade_Extra_AFD
                         for (t2 = 1; t2 < EstadosFinais[t1].Count; t2++)
                         {
                             if ((EstadosFinais[t1][t2].a == nextJump.a && (EstadosFinais[t1][t2].b == nextJump.b || NomeEstados[t1].Contains(EstadosFinais[t1][t2].b))) ||
-                                (EstadosFinais[t1][t2].b == nextJump.b && (EstadosFinais[t1][t2].a == nextJump.a || NomeEstados[t1].Contains(EstadosFinais[t1][t2].a))))
+                                (EstadosFinais[t1][t2].b == nextJump.b && (EstadosFinais[t1][t2].a == nextJump.a || NomeEstados[t1].Contains(EstadosFinais[t1][t2].a))) ||
+                                (CheckEstado(NomeEstados, EstadosFinais[t1][t2].a, nextJump.a) && CheckEstado(NomeEstados, EstadosFinais[t1][t2].b, nextJump.b)))
                             {
                                 stateTemp.Add(EstadosFinais[t1][t2]);
                             }
@@ -133,7 +136,7 @@ namespace Atividade_Extra_AFD
                             {
                                 if (!changed)
                                 {
-                                    nextJump = EstadosFinais[t1][t2];
+                                    nextTemp = EstadosFinais[t1][t2];
                                     changed = true;
                                 }
                             }
@@ -187,6 +190,14 @@ namespace Atividade_Extra_AFD
                 if (states.Contains(state)) return states[0];
 
             return null;
+        }
+
+        private bool CheckEstado(List<string[]> nomes, string a, string b)
+        {
+            foreach(string[] nome in nomes)
+                if (nome.Contains(a) && nome.Contains(b)) return true;
+
+            return false;
         }
 
         private List<string[]> GetNomeEstados(List<List<State>> Estados)

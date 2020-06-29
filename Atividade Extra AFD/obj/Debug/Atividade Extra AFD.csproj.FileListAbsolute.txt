@@ -2,9 +2,9 @@ C:\Users\Tiago Hasuda\Documents\Visual Studio 2019\Projects\Atividade Extra AFD\
 C:\Users\Tiago Hasuda\Documents\Visual Studio 2019\Projects\Atividade Extra AFD\Atividade Extra AFD\bin\Debug\Atividade Extra AFD.exe
 C:\Users\Tiago Hasuda\Documents\Visual Studio 2019\Projects\Atividade Extra AFD\Atividade Extra AFD\bin\Debug\Atividade Extra AFD.pdb
 C:\Users\Tiago Hasuda\Documents\Visual Studio 2019\Projects\Atividade Extra AFD\Atividade Extra AFD\obj\Debug\Atividade Extra AFD.csprojAssemblyReference.cache
-C:\Users\Tiago Hasuda\Documents\Visual Studio 2019\Projects\Atividade Extra AFD\Atividade Extra AFD\obj\Debug\Atividade_Extra_AFD.Form1.resources
 C:\Users\Tiago Hasuda\Documents\Visual Studio 2019\Projects\Atividade Extra AFD\Atividade Extra AFD\obj\Debug\Atividade_Extra_AFD.Properties.Resources.resources
 C:\Users\Tiago Hasuda\Documents\Visual Studio 2019\Projects\Atividade Extra AFD\Atividade Extra AFD\obj\Debug\Atividade Extra AFD.csproj.GenerateResource.cache
 C:\Users\Tiago Hasuda\Documents\Visual Studio 2019\Projects\Atividade Extra AFD\Atividade Extra AFD\obj\Debug\Atividade Extra AFD.csproj.CoreCompileInputs.cache
 C:\Users\Tiago Hasuda\Documents\Visual Studio 2019\Projects\Atividade Extra AFD\Atividade Extra AFD\obj\Debug\Atividade Extra AFD.exe
 C:\Users\Tiago Hasuda\Documents\Visual Studio 2019\Projects\Atividade Extra AFD\Atividade Extra AFD\obj\Debug\Atividade Extra AFD.pdb
+C:\Users\Tiago Hasuda\Documents\Visual Studio 2019\Projects\Atividade Extra AFD\Atividade Extra AFD\obj\Debug\Atividade_Extra_AFD.AFD.resources
