@@ -10,7 +10,9 @@ Uma vez que o programa está aberto é só preencher a tabela do autômato com o
 Não se esqueça também de marcar os estados aceitadores utilizando-se da quarta coluna.
 Em seguida é só pressionar o botão 'Reduzir AFD' que o autômato resultante aparecerá na tabela abaixo.
 
+Exemplo de preenchimento:
 
+![alt text](https://i.imgur.com/c8i346Z.png)
 
 Desenvolvido por: Tiago Grossi Hasuda
 
